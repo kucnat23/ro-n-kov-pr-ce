@@ -1,0 +1,87 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: hsl(0, 5%, 93%);
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.navbar a{
+    color: hsl(168, 66%, 43%);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: hsl(173, 53%, 67%);
+}
+.banner{
+    width: 100%;
+    background-image: url(img/bannerimg.jpeg);
+    height: 405px;
+    background-color: rgb(98, 188, 218);
+    background-position: center;
+}
+.container{
+   display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.boty{
+    flex: 1; /* Všem blokům je přidělen stejný flexibilní podíl */
+    padding: 20px; /* Přidání odsazení pro vizuální oddělení */
+    box-sizing: border-box; /* Zahrnutí paddingu do celkové šířky bloku */
+    margin: 0 10px; /* Mezera mezi bloky */
+}
+.boty:hover{
+    transition: 0.3s;
+    
+    transform: scale(1.05);
+}
+iframe{
+    height: 400px;
+    width: 100vw;
+}
+.footer{
+    background-color: hsl(0, 5%, 93%);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 2em;
+}
+.footer1{
+    padding: 2em;
+}
+p{
+    color: rgb(103, 103, 103);
+}
+.info1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+}
+.info2{
+    flex: 1; /* nastavuje flexibilní délku u flexibilních položek */
+    padding-left: 50px;
+    padding-right: 50px;
+}
+table{
+    display: flex;
+    justify-content: right;
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 91px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+td{
+    border: 2px solid hsl(168, 66%, 43%);
+}
